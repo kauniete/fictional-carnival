@@ -810,8 +810,8 @@ article > div.modal > div.modal-content div:nth-child(2) {
     font-size: 23px;
   }
   .nav-expanded-ul {
-    top: 5rem;
-    height: 600px;
+    top: 13vh;
+    height: 87vh;
   }
   .inserted-icons {
     /*margin-right: 16rem;*/
