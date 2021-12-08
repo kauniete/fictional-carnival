@@ -771,6 +771,7 @@ article > div.modal > div.modal-content div:nth-child(2) {
     position: relative;
     width: 86vw;
     padding-left: 2rem !important;
+     margin-bottom: 170vh;
   }
   .inserted-search-icon {
     position: absolute;
