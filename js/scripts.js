@@ -249,7 +249,8 @@ function openSearchBar() {
   let prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos < currentScrollPos) {
+    if (prevScrollpos < currentScrollPos &&
+currentScrollPos > window.innerHeight) {
       document.querySelector("input").style.display = "none";
       document
         .querySelector("#search-mobile")
